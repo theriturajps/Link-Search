@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://gist.githubusercontent.com/theriturajps/781bca3466a4c9783815ea91b7942d72/raw/data.json';
+let url = 'API/data.json';
 
 
 

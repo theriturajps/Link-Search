@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'API/data.json';
+let url = 'api/data.json';
 
 
 

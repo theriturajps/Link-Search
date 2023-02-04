@@ -3,8 +3,7 @@ p{
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: black;
     padding: 5px;
 }

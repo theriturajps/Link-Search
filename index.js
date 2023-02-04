@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://pro-api.netlify.app/data.json';
+let url = 'https://about.riturajps.in/assets/api/data.json';
 
 
 

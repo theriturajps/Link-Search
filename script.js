@@ -1,6 +1,6 @@
 function runOnRiturajps() {
   var hostname = window.location.hostname;
-  if (hostname === "riturajps.in" || hostname.endsWith(".riturajps.in")) {
+  if (hostname === "riturajps.com" || hostname.endsWith(".riturajps.com")) {
     
     // Initializing the variables
 let url = 'api/data.json';

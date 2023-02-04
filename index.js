@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://gist.githubusercontent.com/kevinnadar22/112e759f1f6f7747c5df8d8749e464f0/raw/0190049fe65baabc057662495125b0070cb6d764/data.json';
+let url = 'https://about.riturajps.in/Search-Website/data.json';
 
 
 
@@ -61,7 +61,7 @@ const displayMovie = async function () {
     }
 
     updateTitle(`Search Results for "${movieInput}"`)
-    document.getElementById('results').innerText = 'Searching 🔍🔎';
+    document.getElementById('results').innerText = '🔍 Searching 🔎';
     document.getElementById('count').innerText = 0
     const result = await start(url);
     let i = 0

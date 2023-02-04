@@ -10,5 +10,5 @@ footer {
 }
 
 a{
-    text-decorataion: none;
+    text-decorataion: none !important;
 }

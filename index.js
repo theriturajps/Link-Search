@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://about.riturajps.in/assets/api/data.json';
+let url = 'https://gist.githubusercontent.com/theriturajps/781bca3466a4c9783815ea91b7942d72/raw/c16d5f46e22bd8b1f7be089b619ff0d873fcf2d5/data.json';
 
 
 

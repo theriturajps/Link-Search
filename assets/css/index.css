@@ -8,3 +8,12 @@ footer {
     color: black;
     padding: 5px;
 }
+
+.button_pos {
+    display: flex;
+    justify-content: center;
+}
+
+button#movieSubmit {
+    margin-right: 10px;
+}

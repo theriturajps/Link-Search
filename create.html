@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Caption and Title Input</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+      }
+      h3 {
+        margin-bottom: 15px;
+      }
+      input[type="text"] {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 300px;
+        border-radius: 12px;
+      }
+      button {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        background-color: rgb(22, 35, 40);
+        color: white;
+        border: none;
+        font-weight: 400;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #structure {
+        margin-top: 1px;
+        width: 95%;
+        height: 200px;
+        background-color: lightgray;
+        border-radius: 12px;
+        padding: 10px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Enter caption and title:</h3>
+    <input type="text" id="captionInput" placeholder="Enter caption here">
+    <input type="text" id="titleInput" placeholder="Enter title here">
+    <button id="addButton">Add</button>
+    
+    <h3>Structure:</h3>
+    <div id="structure"></div>
+    <button id="copyButton">Copy</button>
+
+    <script>
+      const addButton = document.querySelector("#addButton");
+      const captionInput = document.querySelector("#captionInput");
+      const titleInput = document.querySelector("#titleInput");
+      const structure = document.querySelector("#structure");
+      const copyButton = document.querySelector("#copyButton");
+
+      let data = [];
+
+      addButton.addEventListener("click", function() {
+        const caption = captionInput.value;
+        const title = titleInput.value;
+        data.push({ caption: caption, title: title });
+        structure.innerHTML = JSON.stringify(data, null, 2);
+      });
+
+      copyButton.addEventListener("click", function() {
+        const textArea = document.createElement("textarea");
+        textArea.value = structure.innerText;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        textArea.remove();
+        alert("Structure copied to clipboard!");
+      });
+    </script>
+  </body>
+</html>

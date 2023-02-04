@@ -1,5 +1,5 @@
 // Initializing the variables
-let url = 'https://gist.github.com/kevinnadar22/112e759f1f6f7747c5df8d8749e464f0/raw/data.json';
+let url = 'https://gist.githubusercontent.com/kevinnadar22/112e759f1f6f7747c5df8d8749e464f0/raw/data.json';
 
 
 

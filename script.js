@@ -1,6 +1,6 @@
 function runOnlyOnRiturajps() {
   var host = window.location.hostname;
-  if (host === "riturajps.com" || host.endsWith(".riturajps.com")) {
+  if (host === "riturajps.in" || host.endsWith(".riturajps.in")) {
 // Initializing the variables
 let url = 'api/data.json';
 

@@ -1,1 +1,136 @@
-var _0xf07a=["\x61\x70\x69\x2F\x64\x61\x74\x61\x2E\x6A\x73\x6F\x6E","\x6A\x73\x6F\x6E","\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x24\x31\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x3E\x43\x6C\x69\x63\x6B\x20\x48\x65\x72\x65\x3C\x2F\x61\x3E","\x72\x65\x70\x6C\x61\x63\x65","\x24\x31\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x3A\x2F\x2F\x24\x32\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x3E\x43\x6C\x69\x63\x6B\x20\x48\x65\x72\x65\x3C\x2F\x61\x3E","\x6D\x61\x74\x63\x68","\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F","\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x3E","\x3C\x2F\x61\x3E","\x6C\x65\x6E\x67\x74\x68","\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x65\x6C\x65\x67\x72\x61\x6D\x2E\x6D\x65\x2F","\x40","","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x72\x6F\x77","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x76\x61\x6C\x75\x65","\x6D\x6F\x76\x69\x65\x49\x6E\x70\x75\x74","\x4E\x6F\x20\x52\x65\x73\x75\x6C\x74\x73\x20\x46\x6F\x75\x6E\x64","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x63\x6F\x75\x6E\x74","\x54\x79\x70\x65\x20\x61\x6E\x79\x20\x4D\x6F\x76\x69\x65\x20\x4E\x61\x6D\x65","\x53\x65\x61\x72\x63\x68\x20\x52\x65\x73\x75\x6C\x74\x73\x20\x66\x6F\x72\x20\x22","\x22","\x72\x65\x73\x75\x6C\x74\x73","\uD83D\uDD0D\x20\x53\x65\x61\x72\x63\x68\x69\x6E\x67\x20\uD83D\uDD0E","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x74\x69\x74\x6C\x65","\x63\x61\x70\x74\x69\x6F\x6E","\x6C\x6F\x67","\x63\x6C\x6F\x6E\x65\x4E\x6F\x64\x65","\x6F\x72\x69\x67\x69\x6E\x61\x6C\x4E\x6F\x64\x65","\x68\x35","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x70","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x62\x6C\x6F\x63\x6B","\x66\x6F\x72\x45\x61\x63\x68","\x52\x65\x73\x75\x6C\x74\x73\x20\x46\x6F\x75\x6E\x64","\x50\x72\x6F\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x20\x53\x65\x61\x72\x63\x68","\x61\x6C\x65\x72\x74","\x61\x6C\x65\x72\x74\x2D\x74\x65\x78\x74","\x6E\x6F\x6E\x65","\x64\x6F\x63\x75\x6D\x65\x6E\x74","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72"];let url=_0xf07a[0];async function fetchMovies(url){const _0xc3b1x3= await fetch(url);return  await _0xc3b1x3[_0xf07a[1]]()}const start=async function(url){const _0xc3b1x5= await fetchMovies(url);return _0xc3b1x5};function linkify(_0xc3b1x7){var _0xc3b1x8,_0xc3b1x9,_0xc3b1xa,_0xc3b1xb;_0xc3b1x9= /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;_0xc3b1x8= _0xc3b1x7[_0xf07a[3]](_0xc3b1x9,_0xf07a[2]);_0xc3b1xa= /(^|[^\/])(www\.[\S]+(\b|$))/gim;_0xc3b1x8= _0xc3b1x8[_0xf07a[3]](_0xc3b1xa,_0xf07a[4]);_0xc3b1xb= /t.me\/ProExecBot\/[0-9]/;let _0xc3b1x5=_0xc3b1x8[_0xf07a[5]](_0xc3b1xb);if(_0xc3b1x5!= null){_0xc3b1x8= _0xc3b1x8[_0xf07a[3]](_0xc3b1xb,`${_0xf07a[6]}${_0xc3b1x5[0]}${_0xf07a[7]}${_0xc3b1x5[0]}${_0xf07a[8]}`)};let _0xc3b1xc=/@[a-zA-Z0-9_]+/gim;_0xc3b1x5= _0xc3b1x8[_0xf07a[5]](_0xc3b1xc);if(_0xc3b1x5){for(let _0xc3b1xd=0;_0xc3b1xd< _0xc3b1x5[_0xf07a[9]];_0xc3b1xd++){_0xc3b1x8= _0xc3b1x8[_0xf07a[3]](_0xc3b1x5[_0xc3b1xd],`${_0xf07a[10]}${_0xc3b1x5[_0xc3b1xd][_0xf07a[3]](_0xf07a[11],_0xf07a[12])}${_0xf07a[7]}${_0xc3b1x5[_0xc3b1xd][_0xf07a[3]](_0xf07a[11],_0xf07a[12])}${_0xf07a[8]}`)}};return _0xc3b1x8}const displayMovie=async function(){document[_0xf07a[15]](_0xf07a[14])[_0xf07a[13]]= _0xf07a[12];const _0xc3b1xf=document[_0xf07a[15]](_0xf07a[17])[_0xf07a[16]];if(_0xc3b1xf== _0xf07a[12]){updateTitle(_0xf07a[18]);document[_0xf07a[15]](_0xf07a[20])[_0xf07a[19]]= 0;showAlert(_0xf07a[21]);return false};updateTitle(`${_0xf07a[22]}${_0xc3b1xf}${_0xf07a[23]}`);document[_0xf07a[15]](_0xf07a[24])[_0xf07a[19]]= _0xf07a[25];document[_0xf07a[15]](_0xf07a[20])[_0xf07a[19]]= 0;const _0xc3b1x5= await start(url);let _0xc3b1x10=0;_0xc3b1x5[_0xf07a[40]]((_0xc3b1x11)=>{if(_0xc3b1x11[_0xf07a[28]][_0xf07a[26]]()[_0xf07a[27]](_0xc3b1xf[_0xf07a[26]]())){console[_0xf07a[30]](_0xc3b1x11[_0xf07a[29]]);let _0xc3b1x12=/http/;let _0xc3b1x13=_0xc3b1x11[_0xf07a[29]];let _0xc3b1x5=_0xc3b1x13[_0xf07a[5]](_0xc3b1x12);if(_0xc3b1x5== null){return false};_0xc3b1x13= linkify(_0xc3b1x13);let _0xc3b1x14=_0xc3b1x11[_0xf07a[28]];let _0xc3b1x15=document[_0xf07a[15]](_0xf07a[32])[_0xf07a[31]](true);_0xc3b1x15[_0xf07a[34]](_0xf07a[33])[_0xf07a[19]]= _0xc3b1x14;_0xc3b1x15[_0xf07a[34]](_0xf07a[35])[_0xf07a[13]]= _0xc3b1x13;document[_0xf07a[15]](_0xf07a[14])[_0xf07a[36]](_0xc3b1x15);_0xc3b1x15[_0xf07a[38]][_0xf07a[37]]= _0xf07a[39];_0xc3b1x10++}});document[_0xf07a[15]](_0xf07a[24])[_0xf07a[19]]= _0xf07a[41];document[_0xf07a[15]](_0xf07a[20])[_0xf07a[19]]= _0xc3b1x10};function resetButton(){updateTitle(`${_0xf07a[42]}`);document[_0xf07a[15]](_0xf07a[17])[_0xf07a[16]]= _0xf07a[12];document[_0xf07a[15]](_0xf07a[14])[_0xf07a[13]]= _0xf07a[12];document[_0xf07a[15]](_0xf07a[24])[_0xf07a[19]]= _0xf07a[41];document[_0xf07a[15]](_0xf07a[20])[_0xf07a[19]]= 0}function showAlert(_0xc3b1x18){let _0xc3b1x19=document[_0xf07a[15]](_0xf07a[43]);let _0xc3b1x1a=document[_0xf07a[15]](_0xf07a[44]);_0xc3b1x19[_0xf07a[38]][_0xf07a[37]]= _0xf07a[39];_0xc3b1x1a[_0xf07a[19]]= _0xc3b1x18;setTimeout(()=>{_0xc3b1x19[_0xf07a[38]][_0xf07a[37]]= _0xf07a[45]},2000)}function updateTitle(_0xc3b1x14){window[_0xf07a[46]][_0xf07a[28]]= _0xc3b1x14}movieSubmit[_0xf07a[48]](_0xf07a[47],displayMovie);reset[_0xf07a[48]](_0xf07a[47],resetButton)
+function runOnRiturajps() {
+  var hostname = window.location.hostname;
+  if (hostname === "riturajps.in" || hostname.endsWith(".riturajps.in")) {
+    
+    // Initializing the variables
+let url = 'api/data.json';
+
+// Fetch Movie
+async function fetchMovies(url) {
+    const response = await fetch(url);
+    return await response.json()
+}
+
+const start = async function (url) {
+    const result = await fetchMovies(url);
+    return result
+}
+
+// linkify
+function linkify(inputText) {
+    var replacedText, replacePattern1, replacePattern2, replacePattern3;
+
+    //URLs starting with http://, https://, or ftp://
+    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">Click Here</a>');
+
+    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
+    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">Click Here</a>');
+
+    // Replace URL starting with t.me
+    replacePattern3 = /t.me\/ProExecBot\/[0-9]/;
+    let result = replacedText.match(replacePattern3)
+
+    if (result != null) {
+        replacedText = replacedText.replace(replacePattern3, `<a href="https://${result[0]}" target="_blank">${result[0]}</a>`);
+    }
+
+    // Replace username with link
+    let replacePattern4 = /@[a-zA-Z0-9_]+/gim;
+    result = replacedText.match(replacePattern4)
+
+    if (result) {
+        for (let index = 0; index < result.length; index++) {
+            replacedText = replacedText.replace(result[index], `<a href="https://telegram.me/${result[index].replace('@', '')}" target="_blank">${result[index].replace('@', '')}</a>`)
+        }
+
+    }
+
+    return replacedText;
+}
+
+// Display Movie Function
+const displayMovie = async function () {
+    document.getElementById('row').innerHTML = ''
+    const movieInput = document.getElementById('movieInput').value
+
+    if (movieInput == '') {
+        updateTitle("No Results Found")
+        document.getElementById('count').innerText = 0  
+        showAlert('Type any Movie Name')
+        return false;
+    }
+
+    updateTitle(`Search Results for "${movieInput}"`)
+    document.getElementById('results').innerText = '🔍 Searching 🔎';
+    document.getElementById('count').innerText = 0
+    const result = await start(url);
+    let i = 0
+    result.forEach(movie => {
+        if (movie['title'].toLowerCase().includes(movieInput.toLowerCase())) {
+            console.log(movie["caption"]);
+            let regex = /http/
+            let caption = movie['caption'];
+
+            let result = caption.match(regex)
+
+            if (result == null) {
+                return false
+            }
+
+            caption = linkify(caption)
+
+            let title = movie['title'];
+
+            let clonedNode = document.getElementById('originalNode').cloneNode(true)
+            clonedNode.querySelector('h5').innerText = title;
+            clonedNode.querySelector('p').innerHTML = caption;
+
+            document.getElementById('row').appendChild(clonedNode)
+            clonedNode.style.display = 'block'
+            i++;
+        }
+  
+    });
+    document.getElementById('results').innerText = 'Results Found'
+    document.getElementById('count').innerText = i 
+}
+
+// Reset Function
+function resetButton() {
+    updateTitle(`ProDownload Search`)
+    document.getElementById('movieInput').value = '';
+    document.getElementById('row').innerHTML = '';
+    document.getElementById('results').innerText = 'Results Found';
+    document.getElementById('count').innerText = 0
+}
+
+// Alert Function
+function showAlert(str) {
+    let alertHTML = document.getElementById('alert');
+    let alertText = document.getElementById('alert-text');
+
+    alertHTML.style.display = 'block';
+    alertText.innerText = str;
+
+    setTimeout(() => {
+        alertHTML.style.display = 'none';
+    }, 2000);
+}
+
+//Update Window Title
+function updateTitle(title) {
+    window.document.title = title
+} 
+
+// click button
+movieSubmit.addEventListener('click', displayMovie)
+
+// Reset Button
+reset.addEventListener('click', resetButton)
+    
+  } else {
+    alert("Script only works on riturajps.in");
+  }
+}

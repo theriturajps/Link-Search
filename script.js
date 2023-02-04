@@ -1,9 +1,10 @@
-function runOnRiturajps() {
-  var hostname = window.location.hostname;
-  if (hostname === "riturajps.com" || hostname.endsWith(".riturajps.com")) {
-    
-    // Initializing the variables
+function runOnlyOnRiturajps() {
+  var host = window.location.hostname;
+  if (host === "riturajps.in" || host.endsWith(".riturajps.in")) {
+// Initializing the variables
 let url = 'api/data.json';
+
+
 
 // Fetch Movie
 async function fetchMovies(url) {
